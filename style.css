@@ -3,6 +3,10 @@
     margin: 0;
 }
 
+body{
+    background-color: bisque;
+}
+
 header{
     background-color: grey;
 }
@@ -53,6 +57,18 @@ a{
     place-items: center;
 }
 
+h1{
+    margin-top: 2rem;
+    text-align: center;
+}
+
+section{
+    margin-top: 3rem;
+}
+
+.text{
+    margin-top: 1rem;
+}
 
 @media (max-width: 768px){
     .hamburger{
